@@ -1,0 +1,17 @@
+{
+  "test-feature": {
+    "defaultValue": 5,
+    "rules": [
+      {
+        "force": 10,
+        "condition": {
+          "country": { "$in": ["US", "CA"] },
+          "browser": "firefox"
+        }
+      }
+    ]
+  },
+  "signup-button-color": {
+    "defaultValue": "green"
+  }
+}
